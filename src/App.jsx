@@ -1,14 +1,15 @@
-import { useState } from 'react'
 import './App.css'
-import Header from './components/Header'
+import Education from './components/Education'
+import Hero from './components/Hero'
 import Spacer from './components/Spacer'
 
 function App() {
 
   return (
     <div className='app'>
-      <Header />
+      <Hero />
       <Spacer layer='layer1'/>
+      <Education />
       <Spacer layer='layer2'/>
     </div>
    
