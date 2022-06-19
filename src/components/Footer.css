@@ -1,0 +1,10 @@
+.footer {
+    min-height: 40vh;
+    background-color: black;
+    padding: 10%;
+}
+
+.footer h2 {
+    color: white;
+    margin: 0;
+}
