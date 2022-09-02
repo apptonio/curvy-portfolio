@@ -1,5 +1,5 @@
 import React from 'react'
-import MyCarousel from '../../shared/MyCarousel'
+import MyCarousel from '../../shared/MyCarousel/MyCarousel'
 import './Education.css'
 
 const Education = () => {

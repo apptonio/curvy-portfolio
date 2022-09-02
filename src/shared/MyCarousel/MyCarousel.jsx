@@ -1,12 +1,12 @@
 import React from 'react'
 import Carousel from "react-multi-carousel";
+import './MyCarousel.css'
 import "react-multi-carousel/lib/styles.css";
 
 const CardCarousel = Carousel.default? Carousel.default: Carousel;
 
 const responsive = {
     superLargeDesktop: {
-        // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
         items: 5
     },
@@ -26,11 +26,10 @@ const responsive = {
 
 const MyCarousel = () => {
     return (
-        <CardCarousel responsive={responsive}>
+        <CardCarousel className='carousel' responsive={responsive}>
             <div>Item 1</div>
             <div>Item 2</div>
             <div>Item 3</div>
-            <div>Item 4</div>
         </CardCarousel>
     )
 }
