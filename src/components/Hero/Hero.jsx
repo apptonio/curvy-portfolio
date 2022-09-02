@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import './Hero.css'
-import antonio from '../images/me-grayscale.jpeg';
+import antonio from '../../assets/images/me-grayscale.jpeg';
 
 const Hero = () => {
     return (
