@@ -1,6 +1,6 @@
 #hero {
-  margin-top: 10vh;
-  min-height: 75vh;
+  margin-top: 15vh;
+  min-height: 67vh;
   text-align: center;
   color: #ddd;
 }
@@ -30,7 +30,7 @@
 }
 
 .line {
-  margin-top: 4em;
+  margin: 1em 0;
   width: 75%;
   background-color: gray;
   border-radius: 100%;
@@ -40,4 +40,19 @@
 .sticky {
   position: sticky;
   top: 0;
+}
+
+.h-padding {
+  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
