@@ -4,9 +4,9 @@ import './Projects.css'
 
 const Projects = () => {
   return (
-    <div className='projects'>
+    <section id='projects'>
         <MyCarousel />
-    </div>
+    </section>
   )
 }
 

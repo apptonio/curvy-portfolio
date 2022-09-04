@@ -4,9 +4,9 @@ import './WorkExperience.css'
 
 const WorkExperience = () => {
   return (
-    <div className='work-experience'>
+    <section id='work-experience'>
         <MyCarousel />
-    </div>
+    </section>
   )
 }
 

@@ -1,8 +1,8 @@
-.work-experience {
-    display:flex;
-    align-items: center;
-    justify-content:center;
-    width: 100%;
-    min-height: 80vh;
-    background-color: #ffcbc6;
+#work-experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 80vh;
+  background-color: #ffcbc6;
 }
