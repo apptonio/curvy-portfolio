@@ -10,12 +10,6 @@ function App() {
   return (
     <div className="app">
       <Hero />
-      <a href="#education" className="sticky">
-        Education
-      </a>
-      <a href="#work-experience">Work experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#footer">Contact</a>
       <Spacer layer="layer1" />
       <Education />
       <Spacer layer="layer2" />

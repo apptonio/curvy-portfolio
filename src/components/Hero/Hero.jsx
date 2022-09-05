@@ -13,9 +13,14 @@ const Hero = () => {
         <p className="fadein">A freshly graduated Web & Mobile developer.</p>
         <hr className="fadein line" />
         <div className="fadein social-icons">
-        <SocialIcon url="https://www.linkedin.com/in/antonio-butigan/" />
-        <SocialIcon url="https://github.com/Antonio725" />
-        <SocialIcon url="https://antoniodev.contactin.bio" network="email"/>
+          <SocialIcon url="https://www.linkedin.com/in/antonio-butigan/" />
+          <SocialIcon url="https://github.com/Antonio725" />
+          <SocialIcon url="https://antoniodev.contactin.bio" network="email" />
+        </div>
+        <div className="fadein sections">
+          <a href="#education">education</a>
+          <a href="#work-experience">experience</a>
+          <a href="#projects">projects</a>
         </div>
       </div>
     </section>
