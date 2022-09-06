@@ -1,13 +1,18 @@
-import React from 'react'
-import MyCarousel from '../../shared/MyCarousel/MyCarousel'
-import './WorkExperience.css'
+import React from "react";
+import MyCarousel from "../../shared/MyCarousel/MyCarousel";
+import SectionHeader from "../../shared/SectionHeader/SectionHeader";
+import "./WorkExperience.css";
 
 const WorkExperience = () => {
   return (
-    <section id='work-experience'>
-        <MyCarousel />
-    </section>
-  )
-}
+    <section id="work-experience">
 
-export default WorkExperience
+
+      
+      <SectionHeader title={'Work experience'} />
+      <MyCarousel />
+    </section>
+  );
+};
+
+export default WorkExperience;

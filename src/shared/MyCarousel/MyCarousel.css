@@ -1,8 +1,11 @@
 .w-full {
-    width: 100%;
+  width: 75%;
 }
 
 .carousel {
-    height: 200px;
+  height: 100%;
 }
 
+.carousel:first-child {
+  margin-left: 4%;
+}

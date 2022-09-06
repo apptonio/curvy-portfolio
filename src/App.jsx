@@ -9,12 +9,13 @@ import Spacer from "./shared/Spacer/Spacer";
 function App() {
   return (
     <div className="app">
-      <Hero />
-      <Spacer layer="layer1" />
+      <Hero /> 
       <Education />
-      <Spacer layer="layer2" />
+     
+
+      <Spacer layer="layerblue" />
       <WorkExperience />
-      <Spacer layer="layer1" />
+      <Spacer layer="layerbluer" />
       <Projects />
       <Footer />
     </div>

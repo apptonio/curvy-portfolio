@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "./MyCarousel.css";
 import "react-multi-carousel/lib/styles.css";
+import Card from "../Card/Card";
 
 const CardCarousel = Carousel.default ? Carousel.default : Carousel;
 
@@ -23,10 +24,10 @@ const responsive = {
 const MyCarousel = () => {
   return (
     <div className="w-full">
-      <CardCarousel className="carousel" responsive={responsive}>
-        <div>Item 1</div>
-        <div>Item 2</div>
-        <div>Item 3</div>
+      <CardCarousel className="carousel" responsive={responsive} >
+        <Card />
+        <Card />
+        <Card />
       </CardCarousel>
     </div>
   );

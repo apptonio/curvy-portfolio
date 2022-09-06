@@ -1,15 +1,15 @@
 .spacer {
-    aspect-ratio: 960/150;
+    aspect-ratio: 960/300;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.layer1 {
-    background-image: url('../../assets/images/layer1.svg');
+.layerblue {
+    background-image: url('../../assets/images/layerblue.svg');
 }
 
-.layer2 {
-    background-image: url('../../assets/images/layer2.svg');
+.layerbluer {
+    background-image: url('../../assets/images/layerbluer.svg');
 }

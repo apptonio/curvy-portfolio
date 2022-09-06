@@ -8,19 +8,30 @@ const Hero = () => {
   return (
     <section id="hero">
       <div className="h-padding">
-        <img src={antonio} alt="Profile Avatar of Antonio Butigan" />
+        <img src={antonio} alt="Profile Avatar of Antonio Butigan" className="grow"/>
         <Header />
         <p className="fadein">A freshly graduated Web & Mobile developer.</p>
         <hr className="fadein line" />
         <div className="fadein social-icons">
-          <SocialIcon url="https://www.linkedin.com/in/antonio-butigan/" />
-          <SocialIcon url="https://github.com/Antonio725" />
-          <SocialIcon url="https://antoniodev.contactin.bio" network="email" />
+          <SocialIcon
+            url="https://www.linkedin.com/in/antonio-butigan/"
+            className="grow"
+          />
+          <SocialIcon
+            url="https://github.com/Antonio725"
+            className="grow"
+          />
+          <SocialIcon
+            url="https://antoniodev.contactin.bio"
+            network="email"
+            className="grow"
+          />
         </div>
+        
         <div className="fadein sections">
-          <a href="#education">education</a>
-          <a href="#work-experience">experience</a>
-          <a href="#projects">projects</a>
+          <a className="grow" href="#education">education</a>
+          <a className="grow" href="#work-experience">experience</a>
+          <a className="grow" href="#projects">projects</a>
         </div>
       </div>
     </section>
