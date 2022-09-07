@@ -1,4 +1,5 @@
 #education {
+  width: 100% !important;
   position: relative;
   display: flex;
   justify-content: center;
