@@ -1,10 +1,11 @@
 import React from 'react'
 import './SectionHeader.css'
 
-const SectionHeader = ({title}) => {
+const SectionHeader = ({title, isEducation}) => {
+
   return (
     <div id='section-header'>
-        <h1>{title}</h1>
+        <h1 className={isEducation ? 'education-header' : 'other-headers'}>{title}</h1>
     </div>
   )
 }

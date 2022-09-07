@@ -9,8 +9,11 @@ const WorkExperience = () => {
 
 
       
-      <SectionHeader title={'Work experience'} />
+      <SectionHeader title={'Work experience'} isEducation={false} />
+      <div className="work-experience-container">
+      <div className='svg svg-icon2'></div>
       <MyCarousel />
+      </div>
     </section>
   );
 };

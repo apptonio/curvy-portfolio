@@ -1,8 +1,17 @@
-#section-header h1{
+.other-headers{
 font-family: "Courier", monospace;
     overflow: hidden;
     white-space: nowrap;
     font-size: 2.25rem;
     color: black;
-    margin: 6vh 4vh;
+    margin: 0 0 10% 0;
 }
+
+.education-header{
+    font-family: "Courier", monospace;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 2.25rem;
+        color: black;
+        margin: 50% 0 10% 0;
+    }

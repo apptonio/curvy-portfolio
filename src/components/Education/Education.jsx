@@ -1,6 +1,5 @@
 import React from "react";
 import MyCarousel from "../../shared/MyCarousel/MyCarousel";
-
 import SectionHeader from "../../shared/SectionHeader/SectionHeader";
 import "./Education.css";
 
@@ -20,8 +19,13 @@ const Education = () => {
           ></path>
         </svg>
       </div>
-      <SectionHeader title={'Education'} />
+
+      <SectionHeader title={'Education'} isEducation={true}/>
+
+      <div className="education-container">
       <MyCarousel />
+      <div className='svg svg-icon'></div>
+      </div>
     </section>
   );
 };

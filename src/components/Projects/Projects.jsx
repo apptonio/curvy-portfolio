@@ -7,8 +7,12 @@ const Projects = () => {
   return (
     <section id="projects">
       
-      <SectionHeader title={"Projects"} />
+      <SectionHeader title={"Projects"} isEducation={false}/>
+
+      <div className="projects-container">
       <MyCarousel />
+      <div className='svg svg-icon3'></div>
+      </div>
       <div className="simple-spacer-2">
         <svg
           data-name="Layer 1"
