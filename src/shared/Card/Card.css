@@ -1,7 +1,41 @@
 #card {
-  background-color: gray;
+  background-color: #2d3436;
   height: 300px;
   border-radius: 8px;
   width: calc(100% - 40px);
-  margin: 0 20px;
+  margin: 20px 20px;
+}
+
+#card img {
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  object-fit: fit;
+}
+
+.card-text {
+  font-family: "Verdana", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 15px 20px;
+  color: #ddd;
+  text-align: left;
+}
+
+.title {
+  margin: 0;
+}
+
+.location {
+  font-size: 10px;
+  margin-top: 4px;
+}
+
+.description {
+  margin: 0;
+  font-size: 14px;
+  
 }

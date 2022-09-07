@@ -11,8 +11,6 @@ function App() {
     <div className="app">
       <Hero /> 
       <Education />
-     
-
       <Spacer layer="layerblue" />
       <WorkExperience />
       <Spacer layer="layerbluer" />

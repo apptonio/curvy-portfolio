@@ -1,8 +1,9 @@
 import React from "react";
-import Carousel from "react-multi-carousel";
 import "./MyCarousel.css";
-import WithStyles from "react-multi-carousel/lib/styles.css";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import Card from "../Card/Card";
+import ag04 from "../../assets/images/ag04.jpeg";
 
 const MyCarousel = () => {
   return (
@@ -14,7 +15,7 @@ const MyCarousel = () => {
         autoPlaySpeed={3000}
         centerMode={false}
         className=""
-        containerClass="container-with-dots"
+        containerClass=""
         dotListClass=""
         draggable
         focusOnSelect={false}
@@ -61,9 +62,25 @@ const MyCarousel = () => {
         slidesToSlide={1}
         swipeable
       >
-        <Card />
-        <Card />
-        <Card />
+        <Card
+            image = {ag04}
+            title = {"Agency04s Devcademy"}
+            location = {"Zagreb, Croatia"}
+            description = {"Two month academy organized by Agency04. Won the best Flutter app award."}
+          
+        />
+        <Card
+          image = {ag04}
+          title = {"Agency04s Devcademy"}
+          location = {"Zagreb, Croatia"}
+          description = {"2 month academy learning Flutter. Won the hackathon."}
+        />
+        <Card
+          image = {ag04}
+          title = {"Agency04s Devcademy"}
+          location = {"Zagreb, Croatia"}
+          description = {"2 month academy learning Flutter. Won the hackathon."}
+        />
       </Carousel>
     </div>
   );
