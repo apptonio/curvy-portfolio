@@ -2,30 +2,54 @@ import React from "react";
 import MyCarousel from "../../shared/MyCarousel/MyCarousel";
 import SectionHeader from "../../shared/SectionHeader/SectionHeader";
 import "./Projects.css";
+import ag04 from "../../assets/images/ag04.jpeg";
+import Card from "../../shared/Card/Card";
 
 const Projects = () => {
   return (
     <section id="projects">
       
-      <SectionHeader title={"Projects"} isEducation={false}/>
+      <SectionHeader title={"Projects"}/>
 
       <div className="projects-container">
-      <MyCarousel />
+      
+      <MyCarousel
+          card1={
+            <Card
+              image={ag04}
+              title={"Agency04s Devcademy"}
+              location={"Zagreb, Croatia"}
+              description={
+                "Two month academy organized by Agency04. Won the best Flutter app award."
+              }
+            />
+          }
+          card2={
+            <Card
+              image={ag04}
+              title={"Agency04s Devcademy"}
+              location={"Zagreb, Croatia"}
+              description={
+                "Two month academy organized by Agency04. Won the best Flutter app award."
+              }
+            />
+          }
+          card3={
+            <Card
+              image={ag04}
+              title={"Agency04s Devcademy"}
+              location={"Zagreb, Croatia"}
+              description={
+                "Two month academy organized by Agency04. Won the best Flutter app award."
+              }
+            />
+          }
+        />
+
       <div className='svg svg-icon3'></div>
       </div>
-      <div className="simple-spacer-2">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-            className="shape-fill"
-          ></path>
-        </svg>
-      </div>
+
+
     </section>
   );
 };

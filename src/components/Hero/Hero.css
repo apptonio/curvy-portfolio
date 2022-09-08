@@ -1,9 +1,8 @@
 #hero {
+  position: relative;
   margin-top: 15vh;
-
   text-align: center;
   color: #ddd;
-  margin-bottom: 15vh;
 }
 
 #hero p {
@@ -56,8 +55,9 @@
   margin: 0 5%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  min-height: 90vh;
 }
 
 .social-icons {
@@ -73,4 +73,24 @@
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
+}
+
+.simple-spacer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.simple-spacer svg {
+  position: relative;
+  display: block;
+  width: calc(120% + 1.3px);
+  height: 150px;
+}
+
+.simple-spacer .shape-fill {
+  fill: #81ECEC;
 }

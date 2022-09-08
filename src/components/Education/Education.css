@@ -5,26 +5,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 70vh;
   background-color: #81ecec;
 }
 
-.simple-spacer {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  fill: #ffffff;
-}
-
-.simple-spacer svg {
-  position: relative;
-  display: block;
-  width: calc(120% + 1.3px);
-  height: 150px;
-}
 
 .svg {
   aspect-ratio: 865.76/682.89;

@@ -2,10 +2,9 @@ import React from "react";
 import "./MyCarousel.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Card from "../Card/Card";
-import ag04 from "../../assets/images/ag04.jpeg";
 
-const MyCarousel = () => {
+
+const MyCarousel = ({card1, card2, card3}) => {
   return (
     <div className="w-full">
       <Carousel
@@ -62,25 +61,10 @@ const MyCarousel = () => {
         slidesToSlide={1}
         swipeable
       >
-        <Card
-            image = {ag04}
-            title = {"Agency04s Devcademy"}
-            location = {"Zagreb, Croatia"}
-            description = {"Two month academy organized by Agency04. Won the best Flutter app award."}
-          
-        />
-        <Card
-          image = {ag04}
-          title = {"Agency04s Devcademy"}
-          location = {"Zagreb, Croatia"}
-          description = {"2 month academy learning Flutter. Won the hackathon."}
-        />
-        <Card
-          image = {ag04}
-          title = {"Agency04s Devcademy"}
-          location = {"Zagreb, Croatia"}
-          description = {"2 month academy learning Flutter. Won the hackathon."}
-        />
+        {card1}
+        {card2}
+        {card3}
+  
       </Carousel>
     </div>
   );

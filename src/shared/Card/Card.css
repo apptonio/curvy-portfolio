@@ -1,6 +1,5 @@
 #card {
   background-color: #2d3436;
-  height: 300px;
   border-radius: 8px;
   width: calc(100% - 40px);
   margin: 20px 20px;
@@ -37,5 +36,5 @@
 .description {
   margin: 0;
   font-size: 14px;
-  
+  margin-bottom: 20px; 
 }
