@@ -1,0 +1,22 @@
+#education {
+  width: 100% !important;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #81ecec;
+}
+
+.svg-icon {
+  background-image: url('../../assets/images/education-icon.svg');
+}
+
+.education-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+}

@@ -1,3 +1,30 @@
 .app {
   text-align: center;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.svg {
+  aspect-ratio: 865.76/682.89;
+  width: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 950px) {
+  .svg {
+    display: none;
+  }
+}
+

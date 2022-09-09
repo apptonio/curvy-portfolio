@@ -1,0 +1,22 @@
+#work-experience {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.svg-icon2 {
+  background-image: url('../../assets/images/work-experience-icon.svg');
+}
+
+.work-experience-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
