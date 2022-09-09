@@ -4,6 +4,8 @@ import "./Hero.css";
 import antonio from "../../assets/images/me-grayscale.jpeg";
 import { SocialIcon } from "react-social-icons";
 
+const FixedSocialIcon = SocialIcon.default ? SocialIcon.default : SocialIcon;
+
 const Hero = () => {
   return (
     <section id="hero">
@@ -17,12 +19,12 @@ const Hero = () => {
         <p className="fadein">A freshly graduated Web & Mobile developer.</p>
         <hr className="fadein line" />
         <div className="fadein social-icons">
-          <SocialIcon
+          <FixedSocialIcon
             url="https://www.linkedin.com/in/antonio-butigan/"
             className="grow"
           />
-          <SocialIcon url="https://github.com/Antonio725" className="grow" />
-          <SocialIcon
+          <FixedSocialIcon url="https://github.com/Antonio725" className="grow" />
+          <FixedSocialIcon
             url="https://antoniodev.contactin.bio"
             network="email"
             className="grow"

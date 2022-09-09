@@ -3,10 +3,12 @@ import "./MyCarousel.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+const FixedCarousel = Carousel.default? Carousel.default: Carousel
+
 const MyCarousel = ({ card1, card2, card3 }) => {
   return (
     <div className="width">
-      <Carousel
+      <FixedCarousel
         additionalTransfrom={0}
         arrows
         autoPlay
@@ -63,7 +65,7 @@ const MyCarousel = ({ card1, card2, card3 }) => {
         {card1}
         {card2}
         {card3}
-      </Carousel>
+      </FixedCarousel>
     </div>
   );
 };
