@@ -24,7 +24,7 @@
   font-variant: small-caps;
   font-size: 1.4em;
   letter-spacing: 0.04em;
-  color: black;
+  color: #2d3436;
   text-decoration: none;
 }
 
@@ -69,6 +69,7 @@
 }
 
 .sections {
+  display: none;
   width: 350px;
   display: flex;
   justify-content: space-between;

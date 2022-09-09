@@ -1,9 +1,13 @@
 import React from "react";
+import "./Projects.css";
 import MyCarousel from "../../shared/MyCarousel/MyCarousel";
 import SectionHeader from "../../shared/SectionHeader/SectionHeader";
-import "./Projects.css";
-import ag04 from "../../assets/images/ag04.jpeg";
 import Card from "../../shared/Card/Card";
+
+import flutter from "../../assets/images/flutter.jpeg";
+import ios from "../../assets/images/ios.jpeg";
+import android from "../../assets/images/android.jpeg";
+
 
 const Projects = () => {
   return (
@@ -16,31 +20,31 @@ const Projects = () => {
       <MyCarousel
           card1={
             <Card
-              image={ag04}
-              title={"Agency04s Devcademy"}
-              location={"Zagreb, Croatia"}
+              image={flutter}
+              title={"Staycation - Flutter"}
+              location={"Flutter - Figma - Swagger"}
               description={
-                "Two month academy organized by Agency04. Won the best Flutter app award."
+                "Created a fully-functional accommodation booking app."
               }
             />
           }
           card2={
             <Card
-              image={ag04}
-              title={"Agency04s Devcademy"}
-              location={"Zagreb, Croatia"}
+              image={ios}
+              title={"Pocket Apex - SwiftUI"}
+              location={"iOS - SwiftUI - API"}
               description={
-                "Two month academy organized by Agency04. Won the best Flutter app award."
+                "Created a companion app for the popular game Apex Legends."
               }
             />
           }
           card3={
             <Card
-              image={ag04}
-              title={"Agency04s Devcademy"}
-              location={"Zagreb, Croatia"}
+              image={android}
+              title={"Flash Flix - Kotlin"}
+              location={"Android - Kotlin - API"}
               description={
-                "Two month academy organized by Agency04. Won the best Flutter app award."
+                "Created a movie database browsing application with filters similar to Netflix. "
               }
             />
           }

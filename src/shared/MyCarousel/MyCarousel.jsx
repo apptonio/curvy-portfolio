@@ -28,7 +28,7 @@ const MyCarousel = ({ card1, card2, card3 }) => {
         responsive={{
           mobile: {
             breakpoint: {
-              max: 464,
+              max: 500,
               min: 0,
             },
             items: 1,
@@ -37,7 +37,7 @@ const MyCarousel = ({ card1, card2, card3 }) => {
           tablet: {
             breakpoint: {
               max: 1024,
-              min: 464,
+              min: 500,
             },
             items: 2,
             partialVisibilityGutter: 30,

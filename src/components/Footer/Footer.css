@@ -1,7 +1,7 @@
 #footer {
-  min-height: 200px;
+  min-height: 220px;
   position: relative;
-  background-color: black;
+  background-color: #2d3436;
   padding-bottom: 5%;
   display: flex;
   flex-direction: column;

@@ -18,13 +18,15 @@ const Footer = () => {
         </svg>
       </div>
 
+      <a href="#hero" className="grow">Scroll to Top!</a>
       <a
         href="https://www.flaticon.com/free-icons/letter-a"
+        className="grow"
         title="letter a icons"
       >
         Letter a icons created by Icon.doit - Flaticon
       </a>
-      <a href="https://freesvgillustration.com/" title="free illustrations">
+      <a href="https://freesvgillustration.com/" className="grow" title="free illustrations">
         Illustrations - freesvgillustration
       </a>
     </section>

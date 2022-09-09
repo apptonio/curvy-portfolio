@@ -1,9 +1,12 @@
 import React from "react";
+import "./WorkExperience.css";
+
 import MyCarousel from "../../shared/MyCarousel/MyCarousel";
 import SectionHeader from "../../shared/SectionHeader/SectionHeader";
-import "./WorkExperience.css";
-import ag04 from "../../assets/images/ag04.jpeg";
 import Card from "../../shared/Card/Card";
+
+import tutor from "../../assets/images/tutor.jpeg";
+import cinnamon from "../../assets/images/cinnamon.png";
 
 const WorkExperience = () => {
   return (
@@ -17,33 +20,26 @@ const WorkExperience = () => {
       <MyCarousel
           card1={
             <Card
-              image={ag04}
-              title={"Agency04s Devcademy"}
-              location={"Zagreb, Croatia"}
+              image={tutor}
+              title={"Teaching Assistant - Mobile Design"}
+              location={"Dubrovnik, Croatia"}
               description={
-                "Two month academy organized by Agency04. Won the best Flutter app award."
+                "Helped students create websites, hybrid & native apps. Helped with HTML, CSS, JS, React, Angular and Flutter."
               }
             />
           }
           card2={
             <Card
-              image={ag04}
-              title={"Agency04s Devcademy"}
+              image={cinnamon}
+              title={"React Intern Developer"}
               location={"Zagreb, Croatia"}
               description={
-                "Two month academy organized by Agency04. Won the best Flutter app award."
+                "Worked on completed version-controlled website projects. Worked with React, Angular, HTML, CSS, Git."
               }
             />
           }
           card3={
-            <Card
-              image={ag04}
-              title={"Agency04s Devcademy"}
-              location={"Zagreb, Croatia"}
-              description={
-                "Two month academy organized by Agency04. Won the best Flutter app award."
-              }
-            />
+            null
           }
         />
       </div>
