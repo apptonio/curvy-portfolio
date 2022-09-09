@@ -1,7 +1,9 @@
-.w-full {
+.width {
   width: 40%;
 }
 
-.carousel {
-  height: 100%;
+@media only screen and (max-width: 1024px) {
+  .width {
+    width: 80%;
+  }
 }

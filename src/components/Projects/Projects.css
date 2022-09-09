@@ -7,14 +7,6 @@
   background-color: #74b9ff;
 }
 
-.svg {
-  aspect-ratio: 865.76/682.89;
-  width: 40%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .svg-icon3 {
   background-image: url("../../assets/images/projects-icon.svg");
 }

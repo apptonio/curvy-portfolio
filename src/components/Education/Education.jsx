@@ -1,14 +1,16 @@
 import React from "react";
+import "./Education.css";
 import MyCarousel from "../../shared/MyCarousel/MyCarousel";
 import SectionHeader from "../../shared/SectionHeader/SectionHeader";
-import "./Education.css";
-import ag04 from "../../assets/images/ag04.jpeg";
 import Card from "../../shared/Card/Card";
+
+import ag04 from "../../assets/images/ag04.jpeg";
+import rit from "../../assets/images/rit.jpeg";
+import gimna from "../../assets/images/gimna.jpeg";
 
 const Education = () => {
   return (
     <section id="education">
-
       <SectionHeader title={"Education"} />
 
       <div className="education-container">
@@ -16,30 +18,30 @@ const Education = () => {
           card1={
             <Card
               image={ag04}
-              title={"Agency04s Devcademy"}
+              title={"Agency04 Devcademy"}
               location={"Zagreb, Croatia"}
               description={
-                "Two month academy organized by Agency04. Won the best Flutter app award."
+                "Two month academy in Flutter development, organized by Agency04. Won the best Flutter app award."
               }
             />
           }
           card2={
             <Card
-              image={ag04}
-              title={"Agency04s Devcademy"}
-              location={"Zagreb, Croatia"}
+              image={rit}
+              title={"Rochester Institute of Technology"}
+              location={"Dubrovnik, Croatia"}
               description={
-                "Two month academy organized by Agency04. Won the best Flutter app award."
+                "Web & Mobile Computing. Graduated as Bachelor of Science, along with honors and awards."
               }
             />
           }
           card3={
             <Card
-              image={ag04}
-              title={"Agency04s Devcademy"}
-              location={"Zagreb, Croatia"}
+              image={gimna}
+              title={"Grammar High School"}
+              location={"Dubrovnik, Croatia"}
               description={
-                "Two month academy organized by Agency04. Won the best Flutter app award."
+                "Best high school in my town. I achieved high grades, especially English & Informatics."
               }
             />
           }

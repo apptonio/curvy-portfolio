@@ -8,15 +8,6 @@
   background-color: #81ecec;
 }
 
-
-.svg {
-  aspect-ratio: 865.76/682.89;
-  width: 40%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .svg-icon {
   background-image: url('../../assets/images/education-icon.svg');
 }

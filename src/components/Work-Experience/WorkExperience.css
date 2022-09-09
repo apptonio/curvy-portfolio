@@ -8,14 +8,6 @@
   background-color: #ffffff;
 }
 
-.svg {
-  aspect-ratio: 865.76/682.89;
-  width: 40%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .svg-icon2 {
   background-image: url('../../assets/images/work-experience-icon.svg');
 }

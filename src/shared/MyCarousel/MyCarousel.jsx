@@ -3,10 +3,9 @@ import "./MyCarousel.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-
-const MyCarousel = ({card1, card2, card3}) => {
+const MyCarousel = ({ card1, card2, card3 }) => {
   return (
-    <div className="w-full">
+    <div className="width">
       <Carousel
         additionalTransfrom={0}
         arrows
@@ -27,14 +26,6 @@ const MyCarousel = ({card1, card2, card3}) => {
         renderButtonGroupOutside={false}
         renderDotsOutside={false}
         responsive={{
-          desktop: {
-            breakpoint: {
-              max: 3000,
-              min: 1024,
-            },
-            items: 2,
-            partialVisibilityGutter: 40,
-          },
           mobile: {
             breakpoint: {
               max: 464,
@@ -48,8 +39,16 @@ const MyCarousel = ({card1, card2, card3}) => {
               max: 1024,
               min: 464,
             },
-            items: 1,
+            items: 2,
             partialVisibilityGutter: 30,
+          },
+          desktop: {
+            breakpoint: {
+              max: 3000,
+              min: 1024,
+            },
+            items: 2,
+            partialVisibilityGutter: 40,
           },
         }}
         rewind={false}
@@ -64,7 +63,6 @@ const MyCarousel = ({card1, card2, card3}) => {
         {card1}
         {card2}
         {card3}
-  
       </Carousel>
     </div>
   );
