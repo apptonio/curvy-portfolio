@@ -34,6 +34,11 @@ const Hero = () => {
             network="email"
             className="grow"
           />
+          <FixedSocialIcon
+            url="https://www.fiverr.com/dev_antonio"
+            className="grow"
+          />
+          <a href="" download title="a" />
         </div>
 
         <div className="fadein sections">

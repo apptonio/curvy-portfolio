@@ -18,7 +18,7 @@ const Education = () => {
           card1={
             <Card
               image={ag04}
-              title={"Agency04 Devcademy"}
+              title={"Agency04 Devcademy (Flutter)"}
               location={"Zagreb, Croatia"}
               description={
                 "Two month academy in Flutter development, organized by Agency04. Won the best Flutter app award."
@@ -31,20 +31,11 @@ const Education = () => {
               title={"Rochester Institute of Technology"}
               location={"Dubrovnik, Croatia"}
               description={
-                "Web & Mobile Computing. Graduated as Bachelor of Science, along with honors and awards."
+                "Web & Mobile Computing. Graduated as Bachelor of Science, along with honors and awards. 3.7 / 4.0 GPA."
               }
             />
           }
-          card3={
-            <Card
-              image={gimna}
-              title={"Grammar High School"}
-              location={"Dubrovnik, Croatia"}
-              description={
-                "Best high school in my town. I achieved high grades, especially English & Informatics."
-              }
-            />
-          }
+          card3={null}
         />
         <div className="svg svg-icon"></div>
       </div>

@@ -24,7 +24,7 @@ const WorkExperience = () => {
               title={"Teaching Assistant - Mobile Design"}
               location={"Dubrovnik, Croatia"}
               description={
-                "Helped students create websites, hybrid & native apps. Helped with HTML, CSS, JS, React, Angular and Flutter."
+                "Helped students create websites, hybrid & native apps with HTML, CSS, JS, React, Angular and Flutter."
               }
             />
           }
