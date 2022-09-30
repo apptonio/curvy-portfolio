@@ -18,7 +18,14 @@ const Footer = () => {
         </svg>
       </div>
 
-      <a href="#hero" className="grow">Scroll to Top!</a>
+      
+      <a className="cv-button grow"
+        href="https://drive.google.com/file/d/1M5H22laJlug85LEhjC0rE-MLdvOXGPZ9/view?usp=sharing"
+        download
+      >
+        View my CV here
+      </a>
+      <hr className="footer-line" />
       <a
         href="https://www.flaticon.com/free-icons/letter-a"
         className="grow"
@@ -26,7 +33,11 @@ const Footer = () => {
       >
         Letter a icons created by Icon.doit - Flaticon
       </a>
-      <a href="https://freesvgillustration.com/" className="grow" title="free illustrations">
+      <a
+        href="https://freesvgillustration.com/"
+        className="grow"
+        title="free illustrations"
+      >
         Illustrations - freesvgillustration
       </a>
     </section>
