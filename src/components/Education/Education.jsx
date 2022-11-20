@@ -4,9 +4,8 @@ import MyCarousel from "../../shared/MyCarousel/MyCarousel";
 import SectionHeader from "../../shared/SectionHeader/SectionHeader";
 import Card from "../../shared/Card/Card";
 
-import ag04 from "../../assets/images/ag04.jpeg";
+import notch from "../../assets/images/notch.jpg";
 import rit from "../../assets/images/rit.jpeg";
-import gimna from "../../assets/images/gimna.jpeg";
 
 const Education = () => {
   return (
@@ -17,11 +16,11 @@ const Education = () => {
         <MyCarousel
           card1={
             <Card
-              image={ag04}
-              title={"Agency04 Devcademy (Flutter)"}
+              image={notch}
+              title={"Notch Devcademy (Flutter)"}
               location={"Zagreb, Croatia"}
               description={
-                "Two month academy in Flutter development, organized by Agency04. Won the best Flutter app award."
+                "Two month academy in Flutter development, organized by Notch. Won the best Flutter app award."
               }
             />
           }
