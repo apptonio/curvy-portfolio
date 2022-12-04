@@ -12,7 +12,7 @@ const MyCarousel = ({ card1, card2, card3 }) => {
         additionalTransfrom={0}
         arrows
         autoPlay
-        autoPlaySpeed={3000}
+        autoPlaySpeed={5000}
         centerMode={false}
         className=""
         containerClass=""
