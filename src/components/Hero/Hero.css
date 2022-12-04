@@ -20,9 +20,9 @@
 }
 
 #hero a {
-  font-family: "Verdana", sans-serif;
+  font-family: "Courier", sans-serif;
   font-variant: small-caps;
-  font-size: 1.4em;
+  font-size: 2em;
   letter-spacing: 0.04em;
   color: #2d3436;
   text-decoration: none;
@@ -69,11 +69,16 @@
 }
 
 .sections {
-  display: none;
-  width: 350px;
+  width: 600px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sections {
+    flex-direction: column;
+  }
 }
 
 .simple-spacer {

@@ -18,7 +18,7 @@ const Hero = () => {
           className="grow"
         />
         <Header />
-        <p className="fadein">A freshly graduated Web & Mobile developer.</p>
+        <p className="fadein">~ Junior Flutter Engineer ~</p>
         <hr className="fadein line" />
         <div className="fadein social-icons">
           <FixedSocialIcon
@@ -34,11 +34,7 @@ const Hero = () => {
             network="email"
             className="grow"
           />
-          <FixedSocialIcon
-            url="https://www.fiverr.com/dev_antonio"
-            className="grow"
-          />
-          <a href="" download title="a" />
+          
         </div>
 
         <div className="fadein sections">

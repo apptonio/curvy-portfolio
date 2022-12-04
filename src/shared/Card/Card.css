@@ -2,6 +2,7 @@
   background-color: #2d3436;
   border-radius: 8px;
   margin: 20px 20px;
+  max-width: 300px;
 }
 
 #card img {
@@ -27,13 +28,20 @@
   margin: 0;
 }
 
-.location {
+.tag {
   font-size: 10px;
-  margin-top: 4px;
+  margin-top: 10px;
 }
 
 .description {
   margin: 0;
   font-size: 14px;
-  margin-bottom: 20px; 
+}
+
+.bottomItem {
+  margin-bottom: 20px;
+}
+
+.icon {
+  vertical-align: bottom;
 }
