@@ -26,6 +26,7 @@ const Projects = () => {
               description={
                 "Created a fully-functional accommodation booking app."
               }
+             
             />
           }
           card2={
@@ -36,6 +37,7 @@ const Projects = () => {
               description={
                 "Created a companion app for the popular game Apex Legends."
               }
+              
             />
           }
           card3={
@@ -46,6 +48,7 @@ const Projects = () => {
               description={
                 "Created a movie database browsing application with filters similar to Netflix. "
               }
+           
             />
           }
         />

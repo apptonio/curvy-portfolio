@@ -22,6 +22,7 @@ const Education = () => {
               description={
                 "Two month academy in Flutter development, organized by Notch. Won the best Flutter app award."
               }
+              date={"Jul 2022 - Aug 2022"}
             />
           }
           card2={
@@ -32,6 +33,7 @@ const Education = () => {
               description={
                 "Web & Mobile Computing. Graduated as Bachelor of Science, along with honors and awards. 3.7 / 4.0 GPA."
               }
+              date={"Sep 2018 - May 2022"}
             />
           }
           card3={null}

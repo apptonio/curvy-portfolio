@@ -11,6 +11,7 @@
     "react": "^18.0.0",
     "react-animated-popup": "^0.1.7",
     "react-dom": "^18.0.0",
+    "react-icons": "^4.7.1",
     "react-multi-carousel": "^2.8.1",
     "react-social-icons": "^5.14.0"
   },

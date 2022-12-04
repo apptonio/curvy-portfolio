@@ -41,3 +41,7 @@
 .bottomItem {
   margin-bottom: 20px;
 }
+
+.icon {
+  vertical-align: bottom;
+}
