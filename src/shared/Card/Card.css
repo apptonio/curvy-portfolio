@@ -28,13 +28,16 @@
   margin: 0;
 }
 
-.location {
+.tag {
   font-size: 10px;
-  margin-top: 4px;
+  margin-top: 10px;
 }
 
 .description {
   margin: 0;
   font-size: 14px;
-  margin-bottom: 20px; 
+}
+
+.bottomItem {
+  margin-bottom: 20px;
 }
