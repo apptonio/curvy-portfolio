@@ -26,7 +26,7 @@ const Hero = () => {
             className="grow"
           />
           <FixedSocialIcon
-            url="https://github.com/Antonio725"
+            url="https://github.com/apptonio"
             className="grow"
           />
           <FixedSocialIcon

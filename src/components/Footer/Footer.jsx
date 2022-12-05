@@ -20,7 +20,7 @@ const Footer = () => {
 
       
       <a className="cv-button grow"
-        href="https://drive.google.com/file/d/1M5H22laJlug85LEhjC0rE-MLdvOXGPZ9/view?usp=sharing"
+        href="https://drive.google.com/file/d/1cvZl8UjWUJBhHsOMaR6rXnI_wVT2ZCZf/view?usp=sharing"
         download
       >
         View my CV here
