@@ -18,7 +18,7 @@ const Hero = () => {
           className="grow"
         />
         <Header />
-        <p className="fadein">~ Junior Flutter Engineer ~</p>
+        <p className="fadein">~ Flutter Engineer ~</p>
         <hr className="fadein line" />
         <div className="fadein social-icons">
           <FixedSocialIcon
@@ -34,7 +34,7 @@ const Hero = () => {
             network="email"
             className="grow"
           />
-          
+
         </div>
 
         <div className="fadein sections">
