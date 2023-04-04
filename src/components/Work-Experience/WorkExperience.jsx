@@ -14,23 +14,23 @@ const WorkExperience = () => {
     <section id="work-experience">
 
 
-      
+
       <SectionHeader title={'Work experience'} />
       <div className="work-experience-container">
-      <div className='svg svg-icon2'></div>
-      <MyCarousel
-            card1={
-              <Card
+        <div className='svg svg-icon2'></div>
+        <MyCarousel
+          card1={
+            <Card
               image={notch}
-              title={"Junior Flutter Engineer"}
+              title={"Flutter Developer"}
               date={"Oct 2022 - Present"}
               location={"Zagreb, Croatia"}
               description={
-                "Working full-time as a Flutter Engineer @ Notch. Expanding my knowledge through work day by day."
+                "Working full-time as a Flutter Developer @ Notch. Expanding my knowledge through work day by day."
               }
             />
-            }
-            card2={
+          }
+          card2={
             <Card
               image={tutor}
               title={"Teaching Assistant - Mobile Design"}
