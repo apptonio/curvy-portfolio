@@ -18,23 +18,19 @@ const Hero = () => {
           className="grow"
         />
         <Header />
-        <p className="fadein">~ Flutter Engineer ~</p>
+        <p className="fadein">~ Flutter & React Developer ~</p>
         <hr className="fadein line" />
         <div className="fadein social-icons">
           <FixedSocialIcon
             url="https://www.linkedin.com/in/antonio-butigan/"
             className="grow"
           />
-          <FixedSocialIcon
-            url="https://github.com/apptonio"
-            className="grow"
-          />
+          <FixedSocialIcon url="https://github.com/apptonio" className="grow" />
           <FixedSocialIcon
             url="https://antoniodev.contactin.bio"
             network="email"
             className="grow"
           />
-
         </div>
 
         <div className="fadein sections">

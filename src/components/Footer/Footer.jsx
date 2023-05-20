@@ -18,9 +18,9 @@ const Footer = () => {
         </svg>
       </div>
 
-      
-      <a className="cv-button grow"
-        href="https://drive.google.com/file/d/1cvZl8UjWUJBhHsOMaR6rXnI_wVT2ZCZf/view?usp=sharing"
+      <a
+        className="cv-button grow"
+        href="https://drive.google.com/file/d/16chBHQZATIQVfOf1dim0MXrDmZNLuE23/view?usp=sharing"
         download
       >
         View my CV here
