@@ -68,19 +68,6 @@
   
 }
 
-.sections {
-  width: 600px;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 40px;
-}
-
-@media only screen and (max-width: 600px) {
-  .sections {
-    flex-direction: column;
-  }
-}
-
 .simple-spacer {
   position: absolute;
   bottom: 0;
