@@ -12,12 +12,9 @@ import notch from "../../assets/images/notch.jpg";
 const WorkExperience = () => {
   return (
     <section id="work-experience">
-
-
-
-      <SectionHeader title={'Work experience'} />
+      <SectionHeader title={"Work experience"} />
       <div className="work-experience-container">
-        <div className='svg svg-icon2'></div>
+        <div className="svg svg-icon2"></div>
         <MyCarousel
           card1={
             <Card
@@ -33,7 +30,7 @@ const WorkExperience = () => {
           card2={
             <Card
               image={tutor}
-              title={"Teaching Assistant - Mobile Design"}
+              title={"Teaching Assistant"}
               date={"Jan 2022 - May 2022"}
               location={"Dubrovnik, Croatia"}
               description={
@@ -44,7 +41,7 @@ const WorkExperience = () => {
           card3={
             <Card
               image={cinnamon}
-              title={"React Intern Developer"}
+              title={"React Developer"}
               date={"May 2021 - Aug 2021"}
               location={"Zagreb, Croatia"}
               description={

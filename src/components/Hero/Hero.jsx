@@ -18,7 +18,7 @@ const Hero = () => {
           className="grow"
         />
         <Header />
-        <p className="fadein">~ Flutter & React Developer ~</p>
+        <p className="fadein">Flutter & React Developer</p>
         <hr className="fadein line" />
         <div className="fadein social-icons">
           <FixedSocialIcon
@@ -31,18 +31,6 @@ const Hero = () => {
             network="email"
             className="grow"
           />
-        </div>
-
-        <div className="fadein sections">
-          <a className="grow" href="#education">
-            education
-          </a>
-          <a className="grow" href="#work-experience">
-            experience
-          </a>
-          <a className="grow" href="#projects">
-            projects
-          </a>
         </div>
 
         <div className="simple-spacer">

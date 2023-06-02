@@ -8,25 +8,21 @@ import flutter from "../../assets/images/flutter.jpeg";
 import ios from "../../assets/images/ios.jpeg";
 import android from "../../assets/images/android.jpeg";
 
-
 const Projects = () => {
   return (
     <section id="projects">
-      
-      <SectionHeader title={"Projects"}/>
+      <SectionHeader title={"Projects"} />
 
       <div className="projects-container">
-      
-      <MyCarousel
+        <MyCarousel
           card1={
             <Card
               image={flutter}
               title={"Staycation - Flutter"}
               location={"Flutter - Figma - Swagger"}
               description={
-                "Created a fully-functional accommodation booking app."
+                "Created a fully-functional accommodation booking app from a design."
               }
-             
             />
           }
           card2={
@@ -35,9 +31,8 @@ const Projects = () => {
               title={"Pocket Apex - SwiftUI"}
               location={"iOS - SwiftUI - API"}
               description={
-                "Created a companion app for the popular game Apex Legends."
+                "Created a companion app for the popular game Apex Legends by Origin."
               }
-              
             />
           }
           card3={
@@ -48,15 +43,12 @@ const Projects = () => {
               description={
                 "Created a movie database browsing application with filters similar to Netflix. "
               }
-           
             />
           }
         />
 
-      <div className='svg svg-icon3'></div>
+        <div className="svg svg-icon3"></div>
       </div>
-
-
     </section>
   );
 };
